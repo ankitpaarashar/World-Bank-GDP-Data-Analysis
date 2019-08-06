@@ -1,6 +1,6 @@
 # This Project involves: 
 #1. Fetching data from world bank APIs- country API and Indicator API, used requests library: 
-#2. Data Matching that is string matching needed to get more number of data rows: defined string conversion function, 
+#2. Data Matching that is string matching needed to get more number of data rows: defined string conversion function, and
 #   string match using fuzzywuzzy library (soundex or regex could also be used)
 #3. DataFrame formation using Pandas
 #4. Data Claeaning : dropping of duplicates, deletion of extra rows, pivot of dataFrame to get in desired shape.
