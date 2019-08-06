@@ -18,10 +18,10 @@ from fuzzywuzzy import process
 
 
 
-Url = 'given'
+API = 'given'
 
-def datafetchingapi(url):       # function has beeen defined to fetch data from given url.
-  county_dat = []
+def datafetchingapi(API):       # function has beeen defined to fetch data from given url.
+  county_dat = []                # Initialize empty list
   for pageno in range(1,8):
     payload = {'page': pageno}
     data =requests.get(country_url, payload).json()
