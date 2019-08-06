@@ -83,7 +83,7 @@ for i in range(len(coty_df)):
         
         
         
-  # noe fecthing more data using Indicator API:
+# Again fecthing data , now using Indicator API of world Bank:
   
 datframe = pd.DataFrame()
 county_id_df = coty_df['id']
